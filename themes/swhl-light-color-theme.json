@@ -8,8 +8,8 @@
 		"editorInlayHint.typeBackground": "#F7F6F4",
 		"editor.foreground": "#1d1c1c",
 		"foreground": "#1d1c1c",
-		"editor.lineHighlightBackground": "#DDDDDD",
-		"editor.selectionBackground": "#BCBCBC",
+		"editor.lineHighlightBackground": "#DEDEDE",
+		"editor.selectionBackground": "#DEDEDE",
 		"editorCursor.foreground": "#1d1c1c",
 		"terminalCursor.foreground": "#1d1c1c",
 		"editorCursor.background": "#F7F6F4",
@@ -25,12 +25,16 @@
 		"editorLineNumber.foreground": "#A7A7A7",
 		"editorLineNumber.activeForeground": "#2E2E2E",
 		"editorWidget.background": "#F7F6F4",
+		"titleBar.border": "#DEDEDE",
+		"sideBar.border": "#DEDEDE",
+		"focusBorder": "#DEDEDE",
 		"list.highlightForeground": "#2E2E2E",
-		"list.focusBackground": "#DDDDDD",
-		"list.activeSelectionBackground": "#DDDDDD",
+		"list.focusBackground": "#DEDEDE",
+		"list.activeSelectionBackground": "#DEDEDE",
+		"list.activeSelectionForeground": "#1d1c1c",
 		"editorGroupHeader.tabsBackground": "#F7F6F4",
 		"tab.inactiveBackground": "#F7F6F4",
-		"tab.activeBackground": "#DDDDDD",
+		"tab.activeBackground": "#DEDEDE",
 		"tab.inactiveForeground": "#757575",
 		"tab.activeForeground": "#2E2E2E",
 		"titleBar.activeBackground": "#F7F6F4",
@@ -56,7 +60,6 @@
 		"terminal.ansiBrightCyan": "#6C6AA4",
 		"terminal.ansiWhite": "#1d1c1c",
 		"terminal.ansiBrightWhite": "#2E2E2E",
-		"focusBorder": "#DDDDDD",
 		"editorInlayHint.foreground": "#757575",
 		"editorInlayHint.parameterForeground": "#757575",
 		"editorInlayHint.typeForeground": "#757575"
@@ -64,19 +67,15 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"comment": {
-			"foreground": "#BF616A",
-			"fontStyle": ""
-		},
-		"keyword": {
-			"foreground": "#267F99",
+			"foreground": "#AB555E",
 			"fontStyle": ""
 		},
 		"type": {
-			"foreground": "#7C7448",
+			"foreground": "#3A78A1",
 			"fontStyle": ""
 		},
 		"type.defaultLibrary": {
-			"foreground": "#7C7448",
+			"foreground": "#3A78A1",
 			"fontStyle": ""
 		},
 		"string": {
@@ -84,15 +83,19 @@
 			"fontStyle": ""
 		},
 		"number": {
-			"foreground": "#74487C",
+			"foreground": "#B873B2",
 			"fontStyle": ""
 		},
 		"*.readonly": {
-			"foreground": "#74487C",
+			"foreground": "#B873B2",
 			"fontStyle": ""
 		},
 		"*.readonly.defaultLibrary": {
-			"foreground": "#74487C",
+			"foreground": "#B873B2",
+			"fontStyle": ""
+		},
+		"keyword": {
+			"foreground": "#1d1c1c",
 			"fontStyle": ""
 		},
 		"typeParameter": {
@@ -126,7 +129,7 @@
 	},
 	"tokenColors": [
 		{
-			"scope": "string",
+			"scope": "entity.name.import",
 			"settings": {
 				"foreground": "#747C48",
 				"fontStyle": ""
@@ -135,7 +138,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#BF616A",
+				"foreground": "#AB555E",
 				"fontStyle": ""
 			}
 		},

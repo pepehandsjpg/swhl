@@ -3,7 +3,7 @@
   "displayName": "swhl",
   "description": "",
   "publisher": "grdthh",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "url": "https://github.com/hushyael/swhl"
   },
@@ -24,6 +24,11 @@
         "label": "swhl soft",
         "uiTheme": "vs-dark",
         "path": "./themes/swhl-soft-color-theme.json"
+      },
+      {
+        "label": "swhl dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/swhl-dark-color-theme.json"
       }
     ]
   }
