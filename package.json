@@ -1,11 +1,16 @@
 {
   "name": "swhl",
   "displayName": "swhl",
-  "description": "",
+  "description": "another vsc theme",
   "publisher": "grdthh",
-  "version": "0.0.3",
+  "version": "0.0.6",
+  "license": "MIT",
   "repository": {
+    "type": "git",
     "url": "https://github.com/hushyael/swhl"
+  },
+  "bugs": {
+    "url": "https://github.com/hashyael/mlia/issues"
   },
   "engines": {
     "vscode": "^1.85.0"

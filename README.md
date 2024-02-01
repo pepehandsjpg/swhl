@@ -1,16 +1,28 @@
-# swhl README
+i made this theme just for myself
 
-## Working with Markdown
+there are no colors for textmate/semantic tokens b/c i prefer to customize them directly in my settings b/c usually i highlight only 4 groups (tokens): keywords, types, constants, strings
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+i might add some colors in future
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+it's pretty minimal and it might be broken for some of vsc ui elements
 
-## For more information
+if you want you can leave an issue [here](https://github.com/hushyael/swhl/issues)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+i personally recommend to disable all of the annoying "MODERN IDE" ui shit like activity bar, status bar, sidebar action icons, minimap, scrollbars, guides etc...
+```
+{
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.showTabs": "single",
+    "editor.minimap.enabled": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.folding": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.guides.indentation": false,
+}
+```

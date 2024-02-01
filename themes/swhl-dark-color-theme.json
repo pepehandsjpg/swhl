@@ -1,145 +1,118 @@
 {
-	"name": "swhl soft",
+	"name": "swhl dark",
+	"type": "dark",
 	"colors": {
-		"editor.background": "#121212",
-		"editorInlayHint.background": "#121212",
-		"editorInlayHint.parameterBackground": "#121212",
-		"editorInlayHint.typeBackground": "#121212",
-		"editor.foreground": "#8E8E8E",
-		"foreground": "#8E8E8E",
-		"editor.lineHighlightBackground": "#333333",
-		"editor.selectionBackground": "#4E4E4E",
-		"editorCursor.foreground": "#EEEEEC",
-		"terminalCursor.foreground": "#EEEEEC",
-		"editorCursor.background": "#121212",
-		"terminalCursor.background": "#121212",
-		"activityBar.background": "#121212",
-		"sideBar.background": "#121212",
-		"activityBar.foreground": "#EEEEEC",
-		"activityBar.inactiveForeground": "#626262",
-		"statusBar.foreground": "#626262",
-		"statusBar.background": "#121212",
-		"statusBar.debuggingBackground": "#121212",
-		"statusBar.noFolderBackground": "#121212",
-		"editorLineNumber.foreground": "#626262",
-		"editorLineNumber.activeForeground": "#EEEEEC",
-		"editorWidget.background": "#333333",
-		"list.highlightForeground": "#EEEEEC",
-		"list.focusBackground": "#4E4E4E",
-		"list.activeSelectionBackground": "#4E4E4E",
-		"editorGroupHeader.tabsBackground": "#121212",
-		"tab.inactiveBackground": "#121212",
-		"tab.activeBackground": "#333333",
-		"tab.inactiveForeground": "#959595",
-		"tab.activeForeground": "#EEEEEC",
-		"titleBar.activeBackground": "#121212",
-		"titleBar.inactiveBackground": "#121212",
-		"titleBar.activeForeground": "#8E8E8E",
-		"titleBar.inactiveForeground": "#626262",
-		"breadcrumb.foreground": "#959595",
-		"breadcrumb.focusForeground": "#EEEEEC",
-		"terminal.foreground": "#8E8E8E",
-		"terminal.ansiBlack": "#333333",
-		"terminal.ansiBrightBlack": "#959595",
-		"terminal.ansiRed": "#FDA293",
-		"terminal.ansiBrightRed": "#FDA293",
-		"terminal.ansiGreen": "#BEDD9F",
-		"terminal.ansiBrightGreen": "#C4D9B0",
-		"terminal.ansiYellow": "#D6D4A6",
-		"terminal.ansiBrightYellow": "#D6D4A6",
-		"terminal.ansiBlue": "#6BCBF7",
-		"terminal.ansiBrightBlue": "#AED7F5",
-		"terminal.ansiMagenta": "#F4C1CF",
-		"terminal.ansiBrightMagenta": "#F4C1CF",
-		"terminal.ansiCyan": "#CCCCF8",
-		"terminal.ansiBrightCyan": "#CCCCF8",
-		"terminal.ansiWhite": "#8E8E8E",
-		"terminal.ansiBrightWhite": "#EEEEEC",
-		"titleBar.border": "#333333",
-		"sideBar.border": "#333333",
-		"focusBorder": "#333333",
-		"editorInlayHint.foreground": "#959595",
-		"editorInlayHint.parameterForeground": "#959595",
-		"editorInlayHint.typeForeground": "#959595"
+		// COMMON
+		"focusBorder": "#282726",
+		"input.background": "#1C1B1A",
+		"foreground": "#CECDC3",
+		"editor.foreground": "#CECDC3",
+		"editor.background": "#100F0F",
+		"scrollbar.shadow": "#ffffff00",
+		"scrollbarSlider.hoverBackground": "#ffffff00",
+		"scrollbarSlider.activeBackground": "#ffffff00",
+		"scrollbarSlider.background": "#ffffff00",
+		// TITLE BAR
+		"titleBar.border": "#282726",
+		"titleBar.activeBackground": "#100F0F",
+		"titleBar.inactiveBackground": "#100F0F",
+		"titleBar.activeForeground": "#CECDC3",
+		"titleBar.inactiveForeground": "#CECDC3",
+		// ACTIVITY BAR
+		"activityBar.background": "#100F0F",
+		"activityBar.foreground": "#CECDC3",
+		"activityBar.border": "#282726",
+		"activityBar.inactiveForeground": "#CECDC3",
+		// SIDE BAR
+		"sideBar.border": "#282726",
+		"sideBar.background": "#100F0F",
+		"list.highlightForeground": "#2E2E2E",
+		"list.focusBackground": "#1C1B1A",
+		"list.activeSelectionBackground": "#1C1B1A",
+		"list.activeSelectionForeground": "#CECDC3",
+		"list.inactiveSelectionBackground": "#1C1B1A",
+		"list.hoverBackground": "#1C1B1A",
+		// TABS
+		"tab.inactiveBackground": "#100F0F",
+		"tab.activeBackground": "#282726",
+		"editorGroupHeader.tabsBackground": "#100F0F",
+		"editorGroupHeader.tabsBorder": "#282726",
+		// LINE NUMBERS 
+		"editorLineNumber.foreground": "#575653",
+		"editorLineNumber.activeForeground": "#CECDC3",
+		"editorWidget.background": "#100F0F",
+		// CURSOR
+		"editorCursor.foreground": "#CECDC3",
+		"editorCursor.background": "#100F0F",
+		"editor.lineHighlightBackground": "#1C1B1A",
+		// STATUS BAR
+		"statusBar.background": "#100F0F",
+		"statusBar.border": "#282726",
+		"statusBar.foreground": "#CECDC3",
+		"statusBarItem.remoteBackground": "#100F0F",
+		"statusBarItem.remoteForeground": "#CECDC3",
 	},
-	// It's only Go specific semantic tokens, might extend it in future
-	// highlighted groups: strings, numbers, constants, types, comments
-	// https://cs.opensource.google/go/x/tools/+/master:gopls/doc/semantictokens.md
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"comment": {
-			"foreground": "#FDA293",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"type": {
-			"foreground": "#AED7F5",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"type.defaultLibrary": {
-			"foreground": "#AED7F5",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"string": {
-			"foreground": "#BEDD9F",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"number": {
-			"foreground": "#F4C1CF",
-			"fontStyle": ""
-		},
-		"*.readonly": {
-			"foreground": "#F4C1CF",
-			"fontStyle": ""
-		},
-		"*.readonly.defaultLibrary": {
-			"foreground": "#F4C1CF",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"keyword": {
-			"foreground": "#8E8E8E",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"typeParameter": {
-			"foreground": "#8E8E8E",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"parameter": {
-			"foreground": "#8E8E8E",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"variable": {
-			"foreground": "#8E8E8E",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"method": {
-			"foreground": "#8E8E8E",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"function": {
-			"foreground": "#8E8E8E",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"operator": {
-			"foreground": "#8E8E8E",
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		},
 		"*.definition": {
-			"foreground": "#8E8E8E",
+			"foreground": "#CECDC3",
+			"fontStyle": ""
+		},
+		"*.readonly": {
+			"foreground": "#CECDC3",
+			"fontStyle": ""
+		},
+		"*.readonly.defaultLibrary": {
+			"foreground": "#CECDC3",
 			"fontStyle": ""
 		}
-	},
-	"tokenColors": [
-		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#FDA293"
-			}
-		},
-		{
-			"scope": "entity.name.import",
-			"settings": {
-				"foreground": "#BEDD9F"
-			}
-		},
-	]
+	}
 }
